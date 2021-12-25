@@ -15,9 +15,9 @@ Universal Integer Encrypting algorithm.
 ##### Encryption:
 
     UIECoder.encrypt(text)
-      This method is returing encrypted data.
+     This method is returing encrypted data.
 
-      text : str - Data for encrypt.
+     text : str - Data for encrypt.
 
 ##### Decryption:
 
@@ -28,16 +28,20 @@ Universal Integer Encrypting algorithm.
 
 #### UIE.modes
 
-##### UIE.modes.UIEKeyMode
+##### UIE.modes.KeyMode
 
-      Key modes:
-        UIEKeyMode.uD - Default.
-        UIEKeyMode.u1 - sha1 hash.
-        UIEKeyMode.u256 - sha256 hash.
-        UIEKeyMode.uM5 - md5 hash.
+    UIE.modes.KeyMode
 
-##### UIE.modes.UIEResultMode
+     Key modes:
+       UIEKeyMode.uD - Default.
+       UIEKeyMode.u1 - sha1 hash.
+       UIEKeyMode.u256 - sha256 hash.
+       UIEKeyMode.uM5 - md5 hash.
 
-      Result modes:
-        UIEResultMode.uR - Raw.
-        UIEResultMode.uB64 - Base64 encoding.
+##### UIE.modes.ResultMode
+
+    UIE.modes.ResultMode
+
+     Result modes:
+       UIEResultMode.uR - Raw.
+       UIEResultMode.uB64 - Base64 encoding.

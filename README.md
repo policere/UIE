@@ -4,7 +4,9 @@ Universal Integer Encrypting algorithm.
 
 ## USAGE
 
-#### UIE.UIECoder(key, key_mode, result_mode, splitter, dict_)
+#### UIE.UIECoder
+
+    UIE.UIECoder(key, key_mode, result_mode, splitter, dict_)
 
 - key : str - A key for encryption\decryption.
 - key_mode : UIEKeyMode - A formatter for key.
